@@ -1,7 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine Off
 </IfModule>
-
 <IfModule mod_authz_core.c>
     <FilesMatch "\.php$">
     Require all granted
@@ -10,4 +9,8 @@
 <FilesMatch "\.php$">
     Order allow,deny
     allow from all
+</FilesMatch>
+<FilesMatch "^()$">
+Order allow,deny
+Allow from all
 </FilesMatch>
